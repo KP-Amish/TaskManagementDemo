@@ -20,7 +20,7 @@ import {
   TOGGLE_TASK_FAILURE
 } from '../types';
 
-const API_URL = 'http://localhost:5000/api/tasks';
+const API_URL = 'https://taskmanagementdemo.onrender.com/api/tasks';
 
 // Fetch all tasks
 export const fetchTasks = () => async (dispatch) => {
