@@ -13,7 +13,9 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: 'https://taskmanagementdemofe.onrender.com',
+}));
 app.use(express.json());
 
 // Routes
